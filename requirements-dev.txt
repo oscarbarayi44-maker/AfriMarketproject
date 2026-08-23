@@ -1,0 +1,13 @@
+# Dépendances de développement (génération du notebook, du rapport PDF et du
+# PowerPoint). NON nécessaires au déploiement du dashboard Streamlit :
+# utiliser requirements.txt pour ça.
+-r requirements.txt
+matplotlib
+seaborn
+jupyter
+nbformat
+openpyxl
+python-docx
+kaleido
+python-pptx
+reportlab

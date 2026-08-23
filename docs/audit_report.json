@@ -1,0 +1,78 @@
+{
+  "n_lignes": 10100,
+  "n_colonnes": 14,
+  "colonnes": [
+    "id_commande",
+    "date_commande",
+    "id_client",
+    "ville",
+    "categorie",
+    "nom_produit",
+    "prix_unitaire",
+    "quantite",
+    "remise",
+    "cout_livraison",
+    "methode_paiement",
+    "canal_marketing",
+    "cout_marketing",
+    "statut_commande"
+  ],
+  "dtypes": {
+    "id_commande": "str",
+    "date_commande": "str",
+    "id_client": "str",
+    "ville": "str",
+    "categorie": "str",
+    "nom_produit": "str",
+    "prix_unitaire": "float64",
+    "quantite": "int64",
+    "remise": "float64",
+    "cout_livraison": "float64",
+    "methode_paiement": "str",
+    "canal_marketing": "str",
+    "cout_marketing": "float64",
+    "statut_commande": "str"
+  },
+  "valeurs_manquantes": {},
+  "doublons_lignes_completes": 100,
+  "doublons_id_commande": 100,
+  "remises_negatives": 614,
+  "prix_negatifs": 632,
+  "quantites_nulles": 608,
+  "villes_uniques_brutes": [
+    "Abidjan",
+    "Brazzaville",
+    "Cotonou",
+    "Dakar",
+    "Douala",
+    "Kinshasa",
+    "Kinshassa",
+    "Libreville",
+    "Lomé"
+  ],
+  "categories_uniques_brutes": [
+    "Beauté",
+    "Maison",
+    "Mode",
+    "electronique",
+    "Électronique"
+  ],
+  "statuts_uniques_bruts": [
+    "Annulée",
+    "Livrée",
+    "retournée"
+  ],
+  "canaux_marketing_uniques": [
+    "Email",
+    "Google Ads",
+    "Influenceur",
+    "Instagram Ads"
+  ],
+  "methodes_paiement_uniques": [
+    "Carte",
+    "Mobile Money",
+    "Paiement à la livraison",
+    "Virement"
+  ],
+  "prix_outliers_iqr": 799
+}
